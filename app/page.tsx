@@ -123,15 +123,6 @@ export default function Dashboard() {
       <main className="container mx-auto px-6 py-8">
         <BudgetStats />
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-          <div className="lg:col-span-2">
-            <QuickActions />
-          </div>
-          <div>
-            <RecentActivities />
-          </div>
-        </div>
-
         {/* Budget Preparation Modules */}
         <section className="mb-12">
           <div className="flex items-center mb-6">
